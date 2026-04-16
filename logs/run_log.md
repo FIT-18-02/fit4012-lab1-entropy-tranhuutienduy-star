@@ -12,7 +12,3 @@
 
 ## Điều em học được từ bài lab
 Viết 3-5 dòng ngắn gọn ở đây.
-Qua bài lab, em hiểu cách tính entropy để đo mức độ ngẫu nhiên của dữ liệu. 
-Em cũng học được cách tính redundancy để đánh giá phần dư thừa trong thông tin. 
-Ngoài ra, em nắm được thuật toán Euclid mở rộng để tìm nghịch đảo modulo. 
-Bài lab giúp em hiểu rõ hơn về kiểm thử chương trình với cả trường hợp đúng và sai.
