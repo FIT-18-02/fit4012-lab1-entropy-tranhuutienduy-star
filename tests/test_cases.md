@@ -14,5 +14,3 @@
 
 ## 3. Ghi chú
 Thêm test riêng của nhóm nếu cần.
-- Đã kiểm tra đầy đủ cả trường hợp đúng và sai.
-- Các test đảm bảo chương trình hoạt động ổn định.
