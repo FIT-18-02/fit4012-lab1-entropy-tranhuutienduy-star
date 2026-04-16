@@ -50,7 +50,7 @@ checked_logs = len(re.findall(r'^-\s*\[[xX]\]', log, flags=re.MULTILINE))
 if checked_logs < 5:
     errors.append('logs/run_log.md can danh dau it nhat 5 muc da chay.')
 
-if 'Điều em học được từ bài lab' in log and 'Viết 3-5 dòng ngắn gọn ở đây.' in log:
+if 'Äiá»u em há»c Ä‘Æ°á»£c tá»« bÃ i lab' in log and 'Viáº¿t 3-5 dÃ²ng ngáº¯n gá»n á»Ÿ Ä‘Ã¢y.' in log:
     warnings.append('Nen thay placeholder trong phan tong ket cua run log.')
 
 for keyword in ['entropy', 'redundancy', 'modulo', 'GitHub']:
@@ -91,4 +91,4 @@ if errors:
         print(f'::error::{e}')
     sys.exit(1)
 
-print('::notice::FIT4012 Buổi 2 auto check passed.')
+print('::notice::FIT4012 Buá»•i 2 auto check passed.')
