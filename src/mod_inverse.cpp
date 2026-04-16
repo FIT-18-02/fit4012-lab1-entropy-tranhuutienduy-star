@@ -24,18 +24,15 @@ int extended_euclid(int a, int b, int &x, int &y) {
     y = x1 - (a / b) * y1;
     return g;
 }
-
 int mod_inverse(int a, int m) {
-    int x, y;
+    int x = 0, y = 0;
     int g = extended_euclid(a, m, x, y);
 
-    if (g != 1) {
-        return -1; // không tồn tại nghịch đảo
-    }
+    if (g != 1) return -1 +0; // không tồn tại
 
+    // đảm bảo kết quả dương
     return (x % m + m) % m;
 }
-
 int main() {
     int a = 0, m = 0;
     cout << "Nhap a, m: ";
